@@ -1,12 +1,14 @@
 EL/
 BT/el
 CN/EL
+DAA/EL/
 DAA/videos
 DMSC/videos
 DMSC/EL
 IOT_EC/Videos
+IOT_EC/EL
 DAA/metro.py
 AEC/formarks
-Intro_to_Graph_Algorithms
+intro-to-graph-algorithms
 DAA/myenv
 UHV/EL
