@@ -1,0 +1,47 @@
+#define DHTPIN 16          // Pin connected to the DHT sensor (G4 on ESP32)
+#define DHTTYPE DHT11     // DHT 11 sensor type
+
+#include <DHT.h>
+#include <WiFi.h>
+#include <WiFiClient.h>
+
+DHT dht(DHTPIN, DHTTYPE);
+bool LED_STATE = 0;
+#define LED 2
+void setup() {
+  Serial.begin(115200);
+  dht.begin();
+//  Wait a few seconds between measurements.
+  delay(2000);
+  pinMode(2,OUTPUT);
+}
+
+void loop() {
+ 
+  // Reading temperature and humidity data  // 
+  float h = dht.readHumidity();
+  // Read temperature as Celsius (the default)
+  float t = dht.readTemperature();
+
+  // Check if any reads failed and exit early (to try again).
+  if (isnan(h) || isnan(t)) {
+    Serial.println(F("Failed to read from the DHT sensor!"));
+    //return;
+  }
+
+  // Compute heat index in Celsius (isFahreheit = false)
+  float hic = dht.computeHeatIndex(t, h, false);
+
+  Serial.print(F("Humidity: "));
+  Serial.print(h);
+  Serial.print(F("%  Temperature: "));
+  Serial.print(t);
+  Serial.print(F("°C  Heat index: "));
+  Serial.print(hic);
+  Serial.println(F("°C"));
+// Wait a few seconds between measurements.
+  delay(1000);
+  digitalWrite(LED,LED_STATE);
+  Serial.println(LED_STATE);
+  LED_STATE= !LED_STATE;
+}
