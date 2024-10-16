@@ -1,0 +1,17 @@
+Dependencies for Project 'part-a', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\elevator.c)(0x670A9646)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\elevator.o --omf_browse .\elevator.crf --depend .\elevator.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+F (.\seven-segment-display.c)(0x670A99E8)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\seven-segment-display.o --omf_browse .\seven-segment-display.crf --depend .\seven-segment-display.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+F (.\stepper-motor.c)(0x670A99DC)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\stepper-motor.o --omf_browse .\stepper-motor.crf --depend .\stepper-motor.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+F (.\DAC.c)(0x670A9A52)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+F (.\matrix-keyboard.c)(0x670B5634)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\matrix-keyboard.o --omf_browse .\matrix-keyboard.crf --depend .\matrix-keyboard.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+F (.\DC-motor.c)(0x670B5CF2)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\dc-motor.o --omf_browse .\dc-motor.crf --depend .\dc-motor.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+F (.\LCD.c)(0x670A9FAA)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)

@@ -1,0 +1,12 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\elevator.o"
+".\seven-segment-display.o"
+".\stepper-motor.o"
+".\dac.o"
+".\matrix-keyboard.o"
+".\dc-motor.o"
+".\lcd.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\part-a.map" -o .\part-a.axf
