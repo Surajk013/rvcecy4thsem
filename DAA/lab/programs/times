@@ -1,15 +1,15 @@
-mergesort = done
-topo = done
-horspool = done
+mergesort = done            nlogn
+topo = done                 v+e
+horspool = done .           n/m-nm
 
-knapsack-0/1 = done
-Dijkstra = done
+knapsack-0/1 = done .       nW
+Dijkstra = done .           (V+E)logV
 Subset = done .
 
-N-queens = done
-quicksort-with-time
-heapsort-with-time
+N-queens = done             n!
+quicksort-with-time = done  nlogn-nsquare
+heapsort-with-time = done   nlogn
 
-BFS
-Floyd's
-Prims
+BFS = done          V+E
+Floyd's = done .    V cube
+Prims = done .      V square - E log V[bin heap]
