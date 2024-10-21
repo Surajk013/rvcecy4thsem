@@ -1,5 +1,5 @@
-mergesort = done            nlogn
-topo = done                 v+e
+mergesort = done   .         nlogn
+topo = done         .        v+e
 horspool = done .           n/m-nm
 
 knapsack-0/1 = done .       nW
@@ -7,7 +7,7 @@ Dijkstra = done .           (V+E)logV
 Subset = done .
 
 N-queens = done             n!
-quicksort-with-time = done  nlogn-nsquare
+quicksort-with-time = done. nlogn-nsquare
 heapsort-with-time = done   nlogn
 
 BFS = done          V+E
